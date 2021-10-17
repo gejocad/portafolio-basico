@@ -14,7 +14,7 @@ export const Banner = () => {
 
         </Scene>
         <section class="bgimage2"></section>
-        <Scene duration={800} pin={{ pushFollowers: true }}offset={-400}>
+        <Scene duration={730} pin={{ pushFollowers: true }}offset={-400}>
         
         
         
@@ -40,19 +40,19 @@ export const Banner = () => {
     >
       <ul className="navbar-nav m-auto">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">Inicio</a>
+          <a className="link" aria-current="page" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">INICIO</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">Proyectos</a>
+          <a className="link" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">PROYECTOS</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">Link</a>
+          <h2 className="logo">Name logo</h2>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">Skills</a>
+          <a className="link" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">SKILLS</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">Productos</a>
+          <a className="link" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">PRODUCTOS</a>
         </li>
       </ul>
     </div>
@@ -60,11 +60,10 @@ export const Banner = () => {
 </nav>
 </header>
         <section>
-        <div className="hero-image">
-  <div className="hero-text">
-    <h1>I am Jane Doe</h1>
-    <h3>And I'm a Photographer</h3>
-    <button>Hire me</button>
+        <div className="">
+  <div className="">
+    <h1 className="hero">Lorem ipsum</h1>
+    <p className="sub-hero">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." </p>
   </div>
 </div>
 </section>

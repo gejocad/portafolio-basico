@@ -1,4 +1,5 @@
 import {Banner} from "../componentes/banner/Banner";
+import {Work} from "../componentes/work/Work";
 
 
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
     <Banner/>
+    <Work/>
     </>
   );
 }
