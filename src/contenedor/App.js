@@ -7,6 +7,7 @@ import {Skills} from "../componentes/skills/Skills";
 
 
 import './app.css';
+import './galeria.scss'
 function App() {
   return (
     <>
