@@ -13,7 +13,7 @@ export const Work = () => {
                 <p className="huevo"></p>
                 <p className="circulo-mejor"></p>
             </div>
-            <div className="horizontal-scroll-wrapper squares galeria">
+            <div className="horizontal-scroll-wrapper squares">
               <div>
                 
     <h1 className="hero2 text-right">MY WORK</h1>
@@ -22,7 +22,7 @@ export const Work = () => {
 
               <img
                     src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
-                    className="user-image img-circle elevation-2"
+                    className=" resaltar-img"
                     alt="User"
                 />
               </div>
@@ -30,7 +30,7 @@ export const Work = () => {
 
               <img
                     src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
-                    className="user-image img-circle elevation-2"
+                    className=" resaltar-img"
                     alt="User"
                 />
               </div>
@@ -38,7 +38,7 @@ export const Work = () => {
 
               <img
                     src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
-                    className="user-image img-circle elevation-2"
+                    className=" resaltar-img"
                     alt="User"
                 />
               </div>
@@ -46,7 +46,7 @@ export const Work = () => {
 
               <img
                     src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
-                    className="user-image img-circle elevation-2"
+                    className=" resaltar-img"
                     alt="User"
                 />
               </div>
@@ -54,7 +54,7 @@ export const Work = () => {
 
               <img
                     src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
-                    className="user-image img-circle elevation-2"
+                    className=" resaltar-img"
                     alt="User"
                 />
               </div>
@@ -62,7 +62,7 @@ export const Work = () => {
 
               <img
                     src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
-                    className="user-image img-circle elevation-2"
+                    className=" resaltar"
                     alt="User"
                 />
               </div>
@@ -70,7 +70,7 @@ export const Work = () => {
 
               <img
                     src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
-                    className="user-image img-circle elevation-2"
+                    className=" resaltar-img"
                     alt="User"
                 />
               </div>

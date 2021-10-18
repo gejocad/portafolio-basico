@@ -40,19 +40,19 @@ export const Banner = () => {
     >
       <ul className="navbar-nav m-auto">
         <li className="nav-item">
-          <a className="link" aria-current="page" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">INICIO</a>
+          <a className="link resaltar" aria-current="page" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">INICIO</a>
         </li>
         <li className="nav-item">
-          <a className="link" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">PROYECTOS</a>
+          <a className="link resaltar" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">PROYECTOS</a>
         </li>
         <li className="nav-item">
           <h2 className="logo">Name logo</h2>
         </li>
         <li className="nav-item">
-          <a className="link" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">SKILLS</a>
+          <a className="link resaltar" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">SKILLS</a>
         </li>
         <li className="nav-item">
-          <a className="link" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">PRODUCTOS</a>
+          <a className="link resaltar" href="https://i.ibb.co/SfQM1J6/wagon-banner-1.png">PRODUCTOS</a>
         </li>
       </ul>
     </div>

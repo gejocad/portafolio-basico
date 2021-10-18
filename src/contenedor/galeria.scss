@@ -25,10 +25,10 @@ div {
   position: absolute;
   display: block;
   top: 28%;
-  right: 100%;
+  right: 80%;
   width: calc(#{$finalHeight} + #{$scrollBarHeight});
   max-height: $finalWidth;
-  margin: 0;
+  margin: 10px;
   padding-top: $scrollBarHeight;
   background: none;
   overflow-y: auto;
@@ -49,7 +49,8 @@ div {
   & > div {
     width: $finalHeight;
     height: $finalHeight;
-    margin: 250px 0;
+    margin: 115px 0 0 50px;
+    padding-top: 70px;
     
   }
 }
