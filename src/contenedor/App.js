@@ -1,5 +1,7 @@
 import {Banner} from "../componentes/banner/Banner";
 import {Work} from "../componentes/work/Work";
+import {Skills} from "../componentes/skills/Skills";
+
 
 
 
@@ -10,6 +12,7 @@ function App() {
     <>
     <Banner/>
     <Work/>
+    <Skills/>
     </>
   );
 }
