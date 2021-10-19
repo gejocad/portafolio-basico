@@ -1,6 +1,10 @@
-# Portafolio 
+# Portafolio Onepage
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Technologies used
+
+NODE, npm, React Js, bootstrap, node-sass, gh-pages, react-scrollmagic, react-gsap, entre otras.
 
 ## Available Scripts
 
