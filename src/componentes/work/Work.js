@@ -18,7 +18,16 @@ export const Work = () => {
                 
     <h1 className="hero2 text-right">MY WORK</h1>
                  </div>
-              <div>item 2
+              <div className="">
+
+              <img
+                    src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
+                    className=" resaltar-img"
+                    alt="User"
+                />
+                
+              </div>
+              <div>
 
               <img
                     src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
@@ -26,7 +35,7 @@ export const Work = () => {
                     alt="User"
                 />
               </div>
-              <div>item 3
+              <div>
 
               <img
                     src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
@@ -34,7 +43,7 @@ export const Work = () => {
                     alt="User"
                 />
               </div>
-              <div>item 4
+              <div>
 
               <img
                     src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
@@ -42,7 +51,7 @@ export const Work = () => {
                     alt="User"
                 />
               </div>
-              <div>item 5
+              <div>
 
               <img
                     src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
@@ -50,7 +59,7 @@ export const Work = () => {
                     alt="User"
                 />
               </div>
-              <div>item 6
+              <div>
 
               <img
                     src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
@@ -58,15 +67,7 @@ export const Work = () => {
                     alt="User"
                 />
               </div>
-              <div>item 7
-
-              <img
-                    src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
-                    className=" resaltar-img"
-                    alt="User"
-                />
-              </div>
-              <div>item 8
+              <div>
 
               <img
                     src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
@@ -75,6 +76,7 @@ export const Work = () => {
                 />
               </div>
             </div>
+            <img src="https://i.ibb.co/Qvzs3YH/Grupo-6-2x.png" className="flechas" alt="Grupo-6-2x" border="0"/>
   </section>
       </div>
     )

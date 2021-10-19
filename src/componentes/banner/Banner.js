@@ -8,19 +8,21 @@ export const Banner = () => {
         <div>
           <Controller>
         <Scene duration={1} pin={true} enabled={true}>
-        <section class="bgimage">
-  
+        <section className="bgimage">
 </section>
 
         </Scene>
-        <section class="bgimage2"></section>
+        <section className="bgimage2"></section>
         <Scene duration={730} pin={{ pushFollowers: true }}offset={-400}>
         
         
         
           <div className="container-fluid prueba">
-          <header class="header">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            
+  <div className="circulo-mejor1"></div>
+  
+          <header className="header">
+          <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <button
       class="navbar-toggler"
@@ -60,6 +62,7 @@ export const Banner = () => {
 </nav>
 </header>
         <section>
+          
         <div className="">
   <div className="">
     <h1 className="hero">Lorem ipsum</h1>

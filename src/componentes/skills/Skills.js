@@ -1,4 +1,6 @@
 import React from 'react';
+import { Controller, Scene } from 'react-scrollmagic';
+import { Tween,  SplitLetters } from 'react-gsap';
 
 
 export const Skills = () => {
@@ -8,7 +10,53 @@ export const Skills = () => {
           <section className="bgimage4">
                 <p className="triangulo-equilatero-bottom"></p>
             <div>
-                <h1 className="hero3">SKILLS</h1>
+            <div className="section" />
+    <Controller>
+      <Scene
+        pin={false}
+        reverse={true}
+        duration={500}
+        offset={-800}        
+      >
+        <Tween 
+          wrapper={
+            <div className="textContainer" />
+          }
+          staggerFrom= {{
+            left: -2000,
+            rotation: -720,
+            opacity: 0,
+            color: '#ff0000',
+            ease: 'Expo.easeOut',
+          }}
+          stagger={0.15}
+          onCompleteAll={() => { console.log('on complete all'); }}
+        >
+            
+        <div className="hero3 text">
+        <SplitLetters>
+            <p>S</p>
+        </SplitLetters>
+        <SplitLetters>
+            <p>K</p>
+        </SplitLetters>
+        <SplitLetters>
+            <p>I</p>
+        </SplitLetters>
+        <SplitLetters>
+            <p>L</p>
+        </SplitLetters>
+        <SplitLetters>
+            <p>L</p>
+        </SplitLetters>
+        <SplitLetters>
+            <p>S</p>
+        </SplitLetters>
+        </div>
+        </Tween>
+      </Scene>
+      <div/>
+    </Controller>
               <img
                     src={'https://serakidigital.co.ke/wp-content/uploads/2021/09/pexels-tima-miroshnichenko-6611936.jpg'}
                     className="imagen-end"
