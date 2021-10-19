@@ -62,7 +62,7 @@ export const Work = () => {
 
               <img
                     src={'https://i.ibb.co/VTKySps/Imagen-2-2x.png'}
-                    className=" resaltar"
+                    className=" resaltar-img"
                     alt="User"
                 />
               </div>
