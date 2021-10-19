@@ -10,8 +10,8 @@ export const Work = () => {
             <div className="">
             </div>
                 <p className="circulo"></p>
+                <p className="circulo2"></p>
                 <p className="huevo"></p>
-                <p className="circulo-mejor"></p>
             </div>
             <div className="horizontal-scroll-wrapper squares">
               <div>

@@ -1,12 +1,11 @@
 
+  /* IMPORTACION DE FUENTE LOCAL */
 @font-face {
   font-family: 'LuloCleanW01-OneBold';
   src: local('LuloCleanW01-OneBold'), url(./fuente.woff) format('woff');
-  /* other formats include: 'woff2', 'truetype, 'opentype',
-                            'embedded-opentype', and 'svg' */
 }
 
-
+  /* ESTILOS BANNER */
 .bgimage {
   width: 100%;
   height: 700px;
@@ -41,46 +40,12 @@
   
 }
 
-.bgimage3 {
-  transform: translateY(-116px);
-  width: 100%;
-  height: 140%;
-  background-color: #161415;
-  position: absolute;
-  background-position: inherit;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bgimage4 {
-  width: 100%;
-  height: 800px;
-  background-color: #f1ece9;
-  position: absolute;
-  background-position: inherit;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: translateY(654px);
-}
-footer {
-  width: 100%;
-  height: 100px;
-  background-color: #88b1c6;
-  position: absolute;
-  background-position: inherit;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: translateY(1430px);
-}
 
 .bgimage h5 {
   color: white;
   text-shadow: 2px 2px rgb(212, 212, 212);
 }
 
-.prueba {
-  transform: translateY(-700px);
-}
 
 .link {
   font-size: 11.3px;
@@ -115,12 +80,12 @@ footer {
   color: white;
   top: 30px;
 }
-.resaltar {
+.resaltar-link {
 	padding: 1px 3px;
 	display: inline-block;
 	transition: all .3s linear;
   }
- .resaltar:hover {
+ .resaltar-link:hover {
 	transform: scale(1.5, 1.5);
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
@@ -131,29 +96,6 @@ footer {
 	color: black;
   }
     
-.resaltar-txt{
-  display: none;
-}
-.resaltar-txt:hover{
-  display: block;
-}
-
-  .resaltar-img {
-    
-	padding: 1px 3px;
-	display: inline-block;
-	transition: all .3s linear;
-  }
- .resaltar-img:hover {
-	transform: scale(1.2, 1.2);
-	-webkit-transition: all 0.2s linear;
-	-moz-transition: all 0.2s linear;
-	-ms-transition: all 0.2s linear;
-	-o-transition: all 0.2s linear;
-	transition: all 0.2s linear;
-	
-	color: black;
-  }
 .logo {
 	
   font-family: "LuloCleanW01-OneBold", sans-serif;
@@ -199,6 +141,38 @@ footer {
   border-bottom: #f1ece9;
 }
 
+.ajuste-alt {
+  transform: translateY(-700px);
+}
+  /* ESTILOS WORK */
+.bgimage3 {
+  transform: translateY(-116px);
+  width: 100%;
+  height: 140%;
+  background-color: #161415;
+  position: absolute;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  .resaltar-img {
+    
+	padding: 1px 3px;
+	display: inline-block;
+	transition: all .3s linear;
+  }
+ .resaltar-img:hover {
+	transform: scale(1.2, 1.2);
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	
+	color: black;
+  }
+
 .circulo {
   position: relative;
   width: 84px;
@@ -220,7 +194,7 @@ footer {
   top: 0px;
   left: -42px;
 }
-.circulo-mejor {
+.circulo2 {
   position: absolute;
   bottom: -10px;
   left: 81%;
@@ -230,7 +204,15 @@ footer {
   background: none;
   border: 4px solid #fdb97a;
 }
-.triangulo-equilatero-bottom {
+
+.flechas{
+  position: absolute;
+  right: 8%;
+  width: 80px;
+  transform: translateY(495px);
+}
+
+.triangulo {
   align-content: center;
   position: absolute;
   width: 0;
@@ -254,6 +236,29 @@ footer {
 
   letter-spacing: 2px;
   line-height: 1.4;
+}
+
+  /* ESTILOS SKILLS */
+
+.bgimage4 {
+  width: 100%;
+  height: 800px;
+  background-color: #f1ece9;
+  position: absolute;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateY(654px);
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #88b1c6;
+  position: absolute;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateY(1430px);
 }
 
 
@@ -287,7 +292,7 @@ footer {
 .section {
   height: 100vh;
 }
-.textContainer {
+.contenedor-txt   {
   position: relative;
   display: inline-block;
   transform-origin: center;
@@ -342,11 +347,4 @@ footer {
 .rrss-contenedor{
   position: absolute;
   right: 25px;
-}
-
-.flechas{
-  position: absolute;
-  right: 8%;
-  width: 80px;
-  transform: translateY(495px);
 }

@@ -8,7 +8,7 @@ export const Skills = () => {
     return (
         <div>
           <section className="bgimage4">
-                <p className="triangulo-equilatero-bottom"></p>
+                <p className="triangulo"></p>
             <div>
             <div className="section" />
     <Controller>
@@ -20,7 +20,7 @@ export const Skills = () => {
       >
         <Tween 
           wrapper={
-            <div className="textContainer" />
+            <div className="contenedor-txt" />
           }
           staggerFrom= {{
             left: -2000,
