@@ -10,7 +10,9 @@ export const Work = () => {
             <div className="">
             </div>
                 <p className="circulo"></p>
+              <div className="contain">
                 <p className="circulo2"></p>
+                </div>
                 <p className="huevo"></p>
             </div>
             <div className="horizontal-scroll-wrapper squares">

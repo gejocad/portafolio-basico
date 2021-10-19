@@ -1,6 +1,6 @@
 $finalHeight: 350px;
 $finalWidth2: 500px;
-$finalWidth: 5 * $finalHeight;
+$finalWidth: 4.1 * $finalHeight;
 $scrollBarHeight: 1px;
 
 ::-webkit-scrollbar {
@@ -24,8 +24,8 @@ div {
 .horizontal-scroll-wrapper {
   position: absolute;
   display: block;
-  top: 28%;
-  right: 80%;
+  top: 27%;
+  right: 79%;
   width: calc(#{$finalHeight} + #{$scrollBarHeight});
   max-height: $finalWidth;
   margin: 10px;
