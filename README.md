@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Technologies used
 
-NODE, npm, React Js, bootstrap, node-sass, gh-pages, react-scrollmagic, react-gsap, entre otras.
+NODE, npm, React Js, bootstrap, node-sass, gh-pages, react-scrollmagic, react-gsap and others.
 
 ## Available Scripts
 
